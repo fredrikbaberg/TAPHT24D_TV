@@ -7,7 +7,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-playwright.playwright"
+				"ms-playwright.playwright",
+				"jimasp.behave-vsc"
 			]
 		}
 	},

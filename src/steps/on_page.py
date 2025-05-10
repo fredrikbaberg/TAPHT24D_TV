@@ -1,0 +1,7 @@
+from pages.on_website import Website
+
+
+@given("att jag är på hemsidan")
+def step_impl(context):
+    website = Website()
+    raise NotImplementedError("STEP: Given att jag är på hemsidan")
