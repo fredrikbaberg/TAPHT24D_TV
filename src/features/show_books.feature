@@ -5,6 +5,7 @@ Feature: Lista katalog med böcker
 
   Background:
     Given att jag är på hemsidan
+    And jag är på sidan Katalog
 
   Scenario: Lista med böcker är inte tom
     When jag är på sidan Katalog
