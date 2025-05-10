@@ -1,7 +1,7 @@
 Feature: Lista katalog med böcker
 	Som en användare av Läslistan
 	Vill jag kunna se en lista över böcker i katalogen
-	För att se tips på böcker
+	För att se tips på böcker att läsa
 
 	Background:
 		Given att jag är på hemsidan

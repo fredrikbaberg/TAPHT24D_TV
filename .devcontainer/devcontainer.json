@@ -8,7 +8,9 @@
 		"vscode": {
 			"extensions": [
 				"ms-playwright.playwright",
-				"jimasp.behave-vsc"
+				"jimasp.behave-vsc",
+				"gwonhs.vscode-behave-test-adapter",
+				"YouneselBarnoussi.vscode-behave-test-adapter"
 			]
 		}
 	},
@@ -20,7 +22,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r requirements.txt && playwright install"
+	"postCreateCommand": "pip3 install --user -r requirements.txt && playwright install-deps && playwright install"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
