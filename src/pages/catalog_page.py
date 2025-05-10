@@ -1,6 +1,5 @@
-class CatalogPage:
-    def __init__(self, page):
-        self.page = page
+from pages.base_page import BasePage
 
-    def navigate(self):
-        self.page.goto("https://tap-ht24-testverktyg.github.io/exam-template/")
+
+class CatalogPage(BasePage):
+    """Sidan Katalog"""

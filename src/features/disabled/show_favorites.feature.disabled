@@ -1,0 +1,8 @@
+Feature: Favoriter
+    Som en användare av Läslistan
+    Vill jag kunna favoritmarkera böcker
+    För att kunna se mina favoriter
+
+  Background:
+    Given att jag är på hemsidan
+    And jag har tryckt på Mina böcker

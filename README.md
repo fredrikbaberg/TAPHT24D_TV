@@ -1,10 +1,11 @@
-## Att testa
-Länk till sidan som ska testas: [exam-template](https://tap-ht24-testverktyg.github.io/exam-template/)
+# Instruktioner
 
-## Beskrivning
-Projektet kommer köra tester med hjälp av Playwright och Behave. Det som testas beskrivs övergripande av User Stories, se STORIES.md.
+Projektet används för att testa [exam-template](https://tap-ht24-testverktyg.github.io/exam-template/). Projektet kommer köra tester med hjälp av Playwright och Behave. Fallen jag valt att fokusera på framgår av `STORIES.md`.
+
+Instruktioner för att köra följer nedan.
 
 ## Instruktioner
-1. Installera nödvändiga paket. Om du använder Visual Studio Code går det att öppna i Dev Container där allt är förberett, annars behövs: Python, beroenden i `requirements.txt` samt att köra `playwright install`.
+1. Installera nödvändiga paket. Använder du Visual Studio Code finns det en Dev Container du kan använda. Annars behöver du: Python, beroenden i `requirements.txt` samt köra `playwright install`.
+
 2. Kör behave från rotkatalogen:
-> behave src
+    > behave src/
