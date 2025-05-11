@@ -1,9 +1,9 @@
 from pages.base_page import BasePage
 
 
-class CatalogPage(BasePage):
-    """Sidan Katalog"""
+class MyBooksPage(BasePage):
+    """Sidan Mina böcker"""
 
-    def mark_as_favorite(self, entry):
-        """Favoritmarkera"""
-        pass
+    def count_favorites(self):
+        """Hämta antal böcker i listan"""
+        return self.get_by_test_id("book-list").locator("li").count()
