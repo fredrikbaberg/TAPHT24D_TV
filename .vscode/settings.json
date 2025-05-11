@@ -1,0 +1,4 @@
+{
+    "behaveTestAdapter.featuresFolderPath": "src/features",
+    "behave-vsc.featuresPath": "src/features",
+}
