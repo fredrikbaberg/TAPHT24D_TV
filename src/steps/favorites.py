@@ -1,7 +1,5 @@
 from pages.favorites_page import MyBooksPage
 
-from playwright.sync_api import expect
-
 
 @then("finns {count} favoritmarkerade böcker")
 def step_impl(context, count):

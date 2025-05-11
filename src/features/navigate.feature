@@ -1,6 +1,6 @@
-Feature: Bläddra mellan flikar
+Feature: Bläddra mellan vyer
     Som en användare av Läslistan
-    Vill jag kunna navigera mellan flikar
+    Vill jag kunna navigera mellan vyer
     För att bara se relevant information
 
     Background:

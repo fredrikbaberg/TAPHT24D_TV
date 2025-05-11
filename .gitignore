@@ -3,9 +3,5 @@
 **/__pycache__
 
 # From behave
-src/reports
-src/pretty.output
-
-# For coverage
-src/htmlcov
-src/.coverage
+**/reports
+**/pretty.output

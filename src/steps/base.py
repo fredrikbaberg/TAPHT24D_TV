@@ -10,6 +10,7 @@ page_to_test_id = {
     "Mina böcker": "favorites",
 }
 
+
 @given("att jag är på hemsidan")
 def step_impl(context):
     site = BasePage(context.page)

@@ -42,3 +42,10 @@ Feature: Favoriter
     And jag trycker "1" gånger på favoritmarkera "100 sätt att undvika måndagar"
     And jag går till sidan "Mina böcker"
     Then finns "2" favoritmarkerade böcker
+
+  @Favorite
+  Scenario: Av-favoritmarkerade böcker försvinner från Mina böcker
+    Given jag är på sidan "Katalog"
+    When jag trycker "2" gånger på favoritmarkera "Kaffekokaren som visste för mycket"
+    And jag går till sidan "Mina böcker"
+    Then finns "0" favoritmarkerade böcker
