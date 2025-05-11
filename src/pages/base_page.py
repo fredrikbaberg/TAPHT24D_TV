@@ -16,8 +16,8 @@ class BasePage:
     def go_to_page(self, id):
         """Go to page by clicking by test id"""
         button = self.page.get_by_test_id(id)
-        if button.is_visible(timeout=100) and button.is_enabled(timeout=100):
-            button.click(timeout=100)
+        if button.is_enabled(timeout=1000):
+            button.click(timeout=1000)
 
     def find_on_page_by_text(self, query):
         """Find on page"""

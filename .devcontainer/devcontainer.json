@@ -8,9 +8,8 @@
 		"vscode": {
 			"extensions": [
 				"ms-playwright.playwright",
-				"jimasp.behave-vsc",
-				"gwonhs.vscode-behave-test-adapter",
-				"YouneselBarnoussi.vscode-behave-test-adapter"
+				"rioj7.vscode-behave",
+				"AlanCole.gherkintablealign"
 			]
 		}
 	},
