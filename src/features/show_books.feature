@@ -5,14 +5,15 @@ Feature: Lista katalog med böcker
 
 	Background:
 		Given att jag är på hemsidan
+		And jag är på sidan Katalog
 
+	@Catalog
 	Scenario: Lista med böcker är inte tom
-		When jag är på sidan Katalog
-		Then bör jag se minst 7 sökresultat
+		Then bör jag se minst "7" sökresultat
 
+	@Catalog
 	Scenario Outline: Listan med böcker innehåller givna titlar
-		When jag är på sidan Katalog
-		Then bör boken "<title>" med "<author>" synas i katalogen
+		Then bör boken "<title>" av "<author>" synas i katalogen
     
 		Examples:
 			| title        | author |

@@ -1,6 +1,6 @@
 import re
 
-from playwright.sync_api import Page, expect
+from playwright.sync_api import Page
 
 
 class BasePage:
@@ -19,6 +19,10 @@ class BasePage:
         if button.is_visible(timeout=100) and button.is_enabled(timeout=100):
             button.click(timeout=100)
 
-    def find_on_page(self, query):
+    def find_on_page_by_text(self, query):
         """Find on page"""
-        expect(self.page).to_have_title(re.compile(query), timeout=100)
+        return self.page.get_by_text(re.compile(query))
+
+    def get_by_test_id(self, id):
+        """Get object by test id"""
+        return self.page.get_by_test_id(id)
